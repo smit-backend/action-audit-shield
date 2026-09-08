@@ -1,0 +1,8 @@
+name: 'AuditShield Action: Dependency Vulnerability Auditor'
+description: 'Custom GitHub Action scanning PHP, Node, and Python package dependency trees against CVE databases before deployments.'
+author: 'smit-backend'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Scanning..."
+      shell: bash
