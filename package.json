@@ -1,0 +1,5 @@
+{
+  "name": "action-audit-shield",
+  "version": "1.0.0",
+  "description": "Custom GitHub Action scanning PHP, Node, and Python package dependency trees against CVE databases before deployments."
+}
